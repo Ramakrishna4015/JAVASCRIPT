@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+
+    <!-- <div class="outer-container">
+        <div class="container">
+            <div class="box">
+                box1
+            </div>
+            <div class="box">
+                box2
+            </div>
+        </div>
+        <div class="container">
+            <div class="rect">
+                rect1
+            </div>
+            <div class="rect">
+                rect2
+            </div>
+        </div>
+    </div> -->
+    <button id="add">ADD</button>
+    <button id="substract">SUBSTRACT</button>
+
+<!-- another medthod to add eventlistenr (events2.js) -->
+    <button onclick="AddToCart()" onmouseover="hovering()">Add to cart</button>
+<br>
+
+
+<!-- interracting with events -->
+    <label for="username">Name</label>
+
+    <input id ="username" type="text" onchange="nameChange(event)">
+        <!-- event gives access to typed content -->
+    <button onclick="printName()">print</button>
+    <div id="NameContainer"></div>
+
+
+
+    <script src="events2.js"></script>
+</body>
+</html>
